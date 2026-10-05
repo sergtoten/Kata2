@@ -1,4 +1,4 @@
-# KATA1
+# KATA2
 
 #### - OBJETIVOS
 El objetivo de esta práctica es demostrar cómo un programa recibe datos mediante streams, cómo los valida y cómo produce una salida entendible.
