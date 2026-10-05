@@ -1,6 +1,4 @@
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 
 public class Main {
@@ -8,9 +6,9 @@ public class Main {
         File f = new File("Document.txt");
         System.out.println("File exists: " + f.exists());
 
-        try (FileInputStream fis = new FileInputStream(f)) {
-            byte[] bytes = fis.readAllBytes();
-            System.out.println(new String(bytes));
+        try (Reader fis = new FileReader(f)) {
+            String s = fis.readAllAsString();
+            System.out.println(s);
         }
     }
 
