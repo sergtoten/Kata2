@@ -20,11 +20,7 @@ public class Main {
     }
 
     private static List<Employee> loadEmployeesFrom(List<String> strings) {
-        List<Employee> result = new ArrayList<>();
-        for (int i = 1; i < strings.size(); i++) {
-            result.add(loadEmployeesFrom(strings.get(i)));
-        }
-        return result;
+        return strings.stream().skip(1).map(Main::loadEmployeesFrom).toList();
     }
 
     private static Employee loadEmployeesFrom(String s) {
