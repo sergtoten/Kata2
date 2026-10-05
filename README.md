@@ -27,6 +27,7 @@ kata2/
 │   │   │       └── Main.java
 │   │   └── resources/
 │   └── test/
+├── .gitignore
 ├── document.txt
 ├── kata2.iml
 ├── pom.xml
