@@ -16,6 +16,22 @@ clickar en el botón de runear que tiene el propio IntelliJ o usar shift + F10, 
 
 #### - ESTRUCTURA DE LA ENTREGA Y CLASES PRINCIPALES
 - **Estructura:** La estándar de Maven
+```
+kata2/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── software.ulpgc.katas/
+│   │   │       ├── Employee.java
+│   │   │       ├── Gender.java
+│   │   │       └── Main.java
+│   │   └── resources/
+│   └── test/
+├── document.txt
+├── kata2.iml
+├── pom.xml
+└── README.md
+```
 - **Clases Principales:** Main, Employee y Gender
 
 #### - FLUJO DE GIT USADO
