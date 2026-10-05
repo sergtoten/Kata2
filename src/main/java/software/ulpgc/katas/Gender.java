@@ -1,3 +1,5 @@
+package software.ulpgc.katas;
+
 public enum Gender {
     Male, Female;
 
